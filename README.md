@@ -27,7 +27,7 @@ Well, $6000.0, after taxes.
 
 [Mustache](http://mustache.github.com/) 可以用于HTML，配置文件、程序代码等，核心机制就是把模版中的tags替换为通过hash or object给定的值。
 
-我们称之为“轻逻辑”是因为模版语言中没有if、else 和 for循环，只有tags。一些tags会被替换为一个值，还有一些会被替换为一列值。本本会介绍Mustache不同种类的tags.
+我们称之为“轻逻辑”是因为模版语言中没有if、else 和 for循环，只有tags。一些tags会被替换为一个值，还有一些会被替换为一列值。本文会介绍Mustache不同种类的tags.
 
 ## TAG的种类(TAG TYPES)
 
