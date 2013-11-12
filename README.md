@@ -212,7 +212,7 @@ Mustache 只需要:
 
 	{{> next_more}}
 
-因为next_more.mustache 会继承调用时上下文的“size”和”start”方法
+因为`next_more.mustache` 会继承调用时上下文的`size`和`start`方法
 
 也许你会发现子模版和 includes、template扩展很像，尽管和字面上的描述不太一致。
 
