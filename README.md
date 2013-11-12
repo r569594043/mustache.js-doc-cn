@@ -31,15 +31,15 @@ Well, $6000.0, after taxes.
 
 ## TAG的种类(TAG TYPES)
 
-Tags用双花括号标记，`{{person}}`就是一个tag，`{{#person}}`也是。在所有示例中，我们都将用“person”作为属性名或tag的名称。下面开始介绍不通种类的tags.
+Tags用双花括号标记，`{{person}}`就是一个tag，`{{#person}}`也是。在所有示例中，我们都将用`person`作为属性名或tag的名称。下面开始介绍不通种类的tags.
 
 ### 变量(Variables)
 
-最基础的tag就是变量。模版中的tag{{name}}会在当前上下文中匹配名为“name”的值。如果没有找到，就不会输出。
+最基础的tag就是变量。模版中的tag`{{name}}`会在当前上下文中匹配名为`name`的值。如果没有找到，就不会输出。
 
-所有值的输出默认是经过HTML编码的。如果想输出原文，可以使用三重尖括号的标记：{{{name}}}。
+所有值的输出默认是经过HTML编码的。如果想输出原文，可以使用三重花括号的标记：`{{{name}}}`。
 
-也可以使用 & 来标记原文输出：{{& name}}。这种方式在changing delimiters的时候可能有用(see “Set Delimiter” below)。
+也可以使用 `&` 来标记原文输出：{{& name}}。这种方式在changing delimiters的时候可能有用(see “Set Delimiter” below)。
 
 如果匹配某个值失败会返回一个空字符串。Ruby版本的Mustache在这种情况下可以抛出异常，例如：
 
@@ -74,7 +74,7 @@ Sections的行为由给定的键值决定。
 
 #### False 或 空列表
 
-如果名为“person”的值为false或为空，Sections将不会输出任何字符。
+如果名为`person`的值为false或为空，Sections将不会输出任何字符。
 
 模版：
 
@@ -95,7 +95,7 @@ Sections的行为由给定的键值决定。
 
 #### 非空的列表：
 
-如果名为“person”的值不为false，Sections内部的字符将会输出一次或多次。
+如果名为`person`的值不为false，Sections内部的字符将会输出一次或多次。
 
 当值是为空的列表时，与列表中的每个条目对应的字符都会显示出来。每次迭代的时候上下文会从区块切换到对应的没一个条目，这样我们就可以遍历一个集合了。
 
@@ -165,7 +165,7 @@ Sections的行为由给定的键值决定。
 
 Hi Jon!
 
-###反向的Sections(Inverted Sections)
+### 反向的Sections(Inverted Sections)
 
 反向的区块以「^」开始、以「/」结束，比如 {{^person}}…{{/person}}
 
@@ -236,7 +236,7 @@ Mustache 只需要:
 
 ### 设置分隔符
 
-以「=」开始的tag 可以标记 {{ 和 }} 中间的字符为自定义字符。
+以「=」开始的tag 可以标记 `{{` 和 `}}` 中间的字符为自定义字符。
 
 引自 [ctemplates](http://google-ctemplate.googlecode.com/svn/trunk/doc/howto.html), this “is useful for languages like TeX, where double-braces may occur in the text and are awkward to use for markup.”
 
