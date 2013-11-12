@@ -31,7 +31,7 @@ Well, $6000.0, after taxes.
 
 ## TAG的种类(TAG TYPES)
 
-Tags用双花括号标记，{{person}}就是一个tag，{{#person}}也是。在所有示例中，我们都将用“person”作为属性名或tag的名称。下面开始介绍不通种类的tags.
+Tags用双花括号标记，`{{person}}`就是一个tag，`{{#person}}`也是。在所有示例中，我们都将用“person”作为属性名或tag的名称。下面开始介绍不通种类的tags.
 
 ### 变量(Variables)
 
