@@ -86,7 +86,7 @@ Sections的行为由给定的键值决定。
 键值：
 
 	{
-	  "person": true,
+		"person": true,
 	}
 
 输出：
@@ -158,9 +158,10 @@ Sections的行为由给定的键值决定。
 
 键值：
 
-{
-  "person?": { "name": "Jon" }
-}
+	{
+		"person?": { "name": "Jon" }
+	}
+
 输出：
 
 Hi Jon!
@@ -179,7 +180,7 @@ Hi Jon!
 键值：
 
 	{
-	  "repo": []
+		"repo": []
 	}
 
 输出：
