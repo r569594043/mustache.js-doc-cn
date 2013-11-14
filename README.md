@@ -134,7 +134,7 @@ Sections的行为由给定的键值决定。
 键值：
 
 	{
-	"name": "Willy",
+		"name": "Willy",
 		"wrapped": function() {
 			return function(text) {
 				return "<b>" + render(text) + "</b>"
