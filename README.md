@@ -12,10 +12,10 @@ Well, ${{taxed_value}}, after taxes.
 绑定以下键值的集合：
 
 	{
-	  "name": "Chris",
-	  "value": 10000,
-	  "taxed_value": 10000 - (10000 * 0.4),
-	  "in_ca": true
+		"name": "Chris",
+		"value": 10000,
+		"taxed_value": 10000 - (10000 * 0.4),
+		"in_ca": true
 	}
 会生成:
 
